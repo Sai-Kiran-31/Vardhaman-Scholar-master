@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+body{
+    background: linear-gradient(to right, #136a8a, #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    font-size: 40px;
+    font-style:normal;
+    font-family:'Roboto Slab',Montserrat ;
+}
+
+span{
+    background-color: #F7CD2E;
+    color: black;
+}
+
+.ClickButton {
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 0px 250px;
+    margin-bottom: 20px;
+    font-size:20px ;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.6s;
+    color: rgb(104, 85, 224);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(104, 85, 224, 1);
+  }
+
+.ClickButton:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+
+
+.ideahubbody{
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.ideaHubHeading{
+    font-size: 70px;
+    font-family: 'Montserrat';
+    font-style: bold;
+}
+
+.idea{
+    width: 75%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 5px;
+    border-radius: 8px;
+    font-family:'Roboto Slab',Montserrat
+}
+
+.featuresbody{
+    background: linear-gradient(to right, #005aa7, #fffde4);
+
+}
+
+.heading{
+    font-size: 70px;
+    font-family: 'Roboto Slab',Montserrat;
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    color:#120E43;
+    border: 3px solid black;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.talksBody{
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.video{
+    padding: 10px 10px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.talkHeading{
+    margin-top: 10px;
+    color: #B4161B;
+    margin-bottom: 25px;
+   
+}
+
+.talksheading{
+    align-items: center;
+}
+
+.talksDiv{
+    margin-left: 60px;
+}
