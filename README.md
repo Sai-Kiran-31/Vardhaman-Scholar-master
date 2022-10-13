@@ -1,4 +1,4 @@
-# MyApp
+# Vardhaman Scholar
 ***Vardhaman Scholar is a single point digital point for students.***
 - Project Under Building !!
 1. Created Landing Page
